@@ -5,12 +5,12 @@
     "version": "1.0.0",
     "scheme": "barber",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/barber.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/barber.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#63C2D1"
     },
     "ios": {
       "infoPlist": {
@@ -21,8 +21,8 @@
     "android": {
       "permissions": ["ACCESS_FINE_LOCATION"],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/barber.png",
+        "backgroundColor": "#63C2D1"
       }
     },
     "web": {

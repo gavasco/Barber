@@ -63,7 +63,7 @@ export default function BarberProfile() {
                         dot={<FontAwesome name="circle" size={10} color="#FFF" style={{ marginHorizontal: 3 }} />}
                         activeDot={<FontAwesome name="circle" size={10} color="#23cae4" style={{ marginHorizontal: 3 }} />}
                         autoplay={true}
-                        autoplayTimeout={5}
+                        autoplayTimeout={4}
                         paginationStyle={{ bottom: 220, top: 0, right: 0, left: 310 }}
                     >
                         {barberInfo?.data.photos.map((photo: any, index: number) =>
@@ -135,7 +135,7 @@ export default function BarberProfile() {
                         prevButton={<FontAwesome name="chevron-left" size={24} color="#000" style={{ marginLeft: 5 }} />}
                         nextButton={<FontAwesome name="chevron-right" size={24} color="#000" style={{ marginRight: 5 }} />}
                         autoplay={true}
-                        autoplayTimeout={6}
+                        autoplayTimeout={5}
                     >
                         {barberInfo?.data.testimonials.map((testimonial: any, index: number) =>
                             <View key={index} className="px-5 pt-3 pb-6 bg-[#24a6b9] mx-10 rounded-2xl">
